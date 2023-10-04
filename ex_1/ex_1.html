@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio aula 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    p {
+        background-color: aquamarine;
+    }
+</style>
+<body>
+    <p>Trabalho 1</p>
+
+    <script>
+        function mudarCorDeFundo() {
+            // Array de cores aleatórias em formato hexadecimal
+            const cores = ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff', '#00ffff', '#ff8000', '#0080ff', '#8000ff', '#00ff80'];
+
+            // Seleciona uma cor aleatória do array
+            const corAleatoria = cores[Math.floor(Math.random() * cores.length)];
+
+            // Define a cor de fundo do body com a cor aleatória
+            document.body.style.backgroundColor = corAleatoria;
+        }
+    </script>
+
+    <button onclick="mudarCorDeFundo()">Mudar Cor de Fundo</button>
+
+</body>
+</html>
