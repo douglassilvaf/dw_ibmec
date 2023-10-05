@@ -1,0 +1,44 @@
+.teste1 {
+    background-color: royalblue;
+    color: white;
+    font-size: 150%;
+}
+
+.teste2 {
+    background-color: rgb(47, 112, 9);
+    color: white;
+    font-size: 150%;
+}
+
+.teste3 {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(207, 18, 18);
+    color: white;
+    font-size: 150%;
+}
+
+.teste4 {
+    width: 600px;
+    height: 200px;
+    /* Outras propriedades de estilo, se necessário */
+    background-color: #ad32e6; /* Exemplo de cor de fundo */
+    border: 1px solid #000; /* Exemplo de borda */
+    padding: 10px; /* Exemplo de preenchimento interno */
+}
+
+body {
+    font-family: 'Roboto', serif;
+}
+
+span {
+    font-weight: bold;
+    color: red;
+    background-color: aqua;
+}
+
+div {
+    background-color: rgb(196, 149, 122);
+    color: white;
+    font-size: 150%;
+}
